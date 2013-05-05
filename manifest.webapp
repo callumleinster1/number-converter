@@ -3,6 +3,7 @@
     "name": "Number Converter",
     "launch_path": "index.html",
     "description": "Callum First Firefox OS App",
+    "package_path" : "http://callumleinster.com/number.zip",
     "icons": {
         "16": "/images/favicon.ico",
         "32": "/images/favicon.ico",
