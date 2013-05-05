@@ -1,7 +1,7 @@
 {
     "version": "1",
     "name": "Number Converter",
-    "launch_path": "/index.html",
+    "launch_path": "index.html",
     "description": "Callum First Firefox OS App",
     "icons": {
         "16": "/images/favicon.ico",
