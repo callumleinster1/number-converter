@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!--
+Exchange the line above for this to enable offline support
+<html manifest="manifest.appcache">
+
+Please make your homework before doing this:
+http://www.alistapart.com/articles/application-cache-is-a-douchebag/
+http://appcachefacts.info
+This might be necessary to set up on your server, to make sure
+files are updated when the appcache file itself is:
+https://github.com/robnyman/Firefox-OS-Boilerplate-App/blob/gh-pages/.htaccess
+-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Number Converter</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <section role="region">
+        <header>
+            <!-- Icon that will indicate whether you are online or offline - enabled if you are using offline/appcache (see above) -->
+            <div id="online-status" title="Online"></div>
+            <h1>
+                Number Converter
+            </h1>
+        </header>
+    </section>
+
+
+    <section class="main">
+        <h3>Insert Decimal Number: </h3><input type="text" name="number" id="number" class="text-number" size="15" maxlength="30" />
+
+        <input class="number-button" type="button" value="Convert!" onclick="dec2bin()" />
+        <br/ ><br />
+        <div id="display-result"></div>
+    </section>
+
+    <footer>
+        <p>&copy; Callum Leinster - First Firefox OS App</p>
+    </footer>
+
+    <script type="text/javascript" src="js/callumapp.js"></script>
+
+    <!--
+Loosely based on fxosstub: https://github.com/Jaxo/fxosstub
+-->
+
+</body>
+</html>

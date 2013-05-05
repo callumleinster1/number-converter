@@ -1,0 +1,212 @@
+/*
+
+  LabStormz - theLab
+
+  ********Contents*********
+
+  ****CSS Reset lines****
+
+  ****Core Styles****
+
+  ****Scaffoldings****
+
+  ****Sections****
+
+*/
+
+/**************CSS Reset*********************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+  border: 0 none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+html{
+  font-size: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+  display: block;
+}
+body{
+  line-height: 1;
+}
+ol, ul{
+  list-style: none outside none;
+}
+blockquote, q{
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ /****Core Styles****/
+
+body{
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #555555;
+  font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: medium;
+  line-height: 18px;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5{
+  color: #181818;
+  line-height: 1.25;
+  font-family: "Museo-700",Georgia,Times,Times New Roman,serif;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+  font-weight: inherit;
+}
+
+h1{
+  font-size: 2.3em;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+
+h2{
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+h3{
+  font-size: 2.1em;
+  margin-bottom: 9px;
+  margin-left: 10px;
+}
+
+h4{
+  font-size: 2em;
+  margin-bottom: 9px;
+  margin-left: 10px;
+}
+
+h5{
+  font-size: 1.8em;
+  font-weight: normal;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+h6{
+  color: #494949;
+  font-size: 1.6em;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0 15px;
+  text-decoration: none;
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+p, ol, ul, td{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+ul li{
+  font-size: large;
+  list-style: none;
+  text-decoration: none;
+}
+
+pre{
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a{
+  color: #000;
+  &:visited {
+  text-decoration: none;
+  }&:hover {
+  color: #2A85E8;
+  text-decoration: none;
+  }
+}
+
+em{
+  color: #000;
+  font-style: italic;
+}
+
+/****Scaffoldings****/
+
+header{
+  background: none repeat scroll 0 0 #F4F4F4;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px 2px 2px 2px;
+  display: block;
+  overflow: hidden;
+  padding: 7px 10px;
+}
+
+.main{
+  margin-left: 10px;
+  margin: 0 auto;
+}
+
+footer{
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: 1px solid #EAEAEA;
+}
+
+ /****Sections****/
+
+.number-button, #display-result{
+  margin-left: 10px;
+ }
+
+ .number-button{
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:#ededed;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  color:#777777;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+}.number-button:hover {
+  background-color:#dfdfdf;
+}.number-button:active {
+  position:relative;
+  top:1px;
+}
+
+ .text-number{
+  margin-left: 20px;
+  padding: 7px;
+ }
+
+ #display-result{
+  padding-bottom: 10px;
+  margin: 10px;
+ }
